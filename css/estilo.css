@@ -1,0 +1,50 @@
+.loginContainer {
+    display: flex;
+    justify-content: center;
+   
+}
+.container {
+    margin-top: 200px;
+    background-color: rgb(116, 102, 197);
+    border-radius: 8px;
+    width: 500px;
+    height: 500px;
+}
+body {
+    background-color: black;
+}
+img { 
+    height:100px;
+}
+#loginForme {
+    display: flex;
+    flex-direction: column;
+}
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+form {
+    display: flex;
+    justify-content: center;
+}
+button {
+    padding:  10px; 
+}
+.acessos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+.jopo {
+    margin-top: 500px;
+}
